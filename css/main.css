@@ -1,0 +1,335 @@
+
+/* reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body{
+    line-height: 1.7;
+    background: #fff;
+}
+
+.page-header{
+    background: #845;
+    padding: 1.5em;
+}
+.section{
+    text-align: center;
+    background: -moz-linear-gradient(#032029, #fff);
+    background: -webkit-linear-gradient(rgb(217, 108, 226), rgb(7, 180, 219));
+    background: -o-linear-gradient(rgb(20, 16, 26), blue);
+    padding: 20px;
+}
+.section h2{
+    font-size: 4em;
+    text-transform: uppercase;
+    color:  rgb(28, 225, 199);
+    font-weight: 700;
+}
+.section p{
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.5em;
+}
+.logo{
+    float: left;
+    font-size: 3em;
+    margin-left: 100px;
+    line-height: 1em;
+    
+}
+
+.navbar li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar a{
+    font-size: 13pt;
+    padding: 10px;
+}
+
+.sub-header{
+    float: right;
+}
+
+.header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.sup-page{
+    clear: both;
+    text-align: center;
+}
+.sup-page h4 {
+    font-size: 2.5em;
+    line-height: 2.5;
+    margin-bottom: 0;
+    color: rgb(28, 225, 199);
+    font-weight: bold;
+}
+.timeline{
+    margin-left: 10%;
+    padding: 10px;
+    font-size: 20pt;
+    font-weight: bold;
+    color: rgb(28, 225, 199);
+    line-height: 2.5;
+}
+.sup-page p{
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 15pt;
+    color: #fff;
+}
+.btn{
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 1em;
+    font-size: 1.5em;
+}
+.btn:hover{
+    background: rgb(28, 225, 199);
+    color: #000;
+}
+.active{
+    border: 2px dotted #000;
+    color: red;
+}
+
+a:hover{
+    color:  rgb(28, 225, 199);
+    text-decoration: underline;
+}
+
+
+/* main-section part */
+
+
+#main-section{
+    margin: 3em 2em;
+
+}
+
+.main{
+    display: flex;
+}
+
+.sub-section{
+    float: left;
+    width: 65%;
+    /*margin: 0 auto;*/
+}
+.sub-section h4{
+    font-weight: 700;
+    margin-left: 1em;
+    font-size: 7vh;
+}
+.span{
+    text-transform: uppercase;
+    font-size: 4vh;
+    margin-left: 2em;
+    color: rgb(28, 225, 199);
+}
+.sidebar{
+    float: right;
+    width: 20%;
+    margin: 3em 7em 2em 0;
+    padding: 10px;
+    
+    vertical-align: top;
+    text-align: center;
+}
+.img{
+    border:1px solid black;
+}
+.sidebar a{
+    text-decoration: none;
+    font-size: 1em;
+}
+.sidebar img{
+      border-radius: 50%;
+      height: 130px;
+      margin: -66px 0 1px;
+      vertical-align: top;
+
+}
+.article{
+    display: flex;
+    margin: 2em 5em;
+}
+.register{
+    width: 50%;
+    margin-right: 5em;
+}
+.register-side{
+    width: 70%;
+}
+.register-side h3, h5, h2{
+    font-size: 2em;
+    color: #999;
+}
+.register-side a{
+  text-decoration: none;
+}
+.venue-address{
+    font-size: 20pt;
+    margin-right: 5em;
+}
+.venue-address a{
+    color: #a9b2b9;
+    line-height: 2em;
+    /*letter-spacing: 2em;*/
+}
+
+.venue-theatre {
+    margin-bottom: 66px;
+    /*width: 70%;*/
+
+  }
+  .venue-hotel {
+    margin-bottom: 22px;
+  }
+  .venue-map {
+    height: 200px;
+    width: 250%;
+  }
+
+
+.why-attend {
+
+    list-style: square;
+    margin: 0 0 22px 30px;
+  }
+
+  input,
+  select,
+  textarea {
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  form{
+
+  }
+  .register-group label {
+    color: #648880;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  .register-group input,
+  .register-group select,
+  .register-group textarea {
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
+  }
+  .register-group input,
+  .register-group textarea {
+    width: 100%;
+  }
+  .register-group select {
+    height: 34px;
+    width: 60px;
+  }
+  .register-group textarea {
+    height:90px;
+  }
+  .btn-default{
+      /*margin: 0 2em;*/
+      font-weight: bold;
+  }
+.sidebar-side{
+    width: 70%;
+    float: right;
+}
+.col-1-3{
+    text-align: center;
+}
+
+/*speaker section*/
+
+.main img{
+    width: 90%;
+    display: block;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    height: 60%;
+}
+.col{
+    width: 70%;
+}
+.col h3, p{
+    margin: 20px;
+    text-align: center;
+}
+.col h5{
+    margin-left:20px;
+    font-size: 2em; 
+}
+
+/* links */
+.col a{
+    text-decoration: none;
+    color: rgb(15, 185, 204);
+    font-size: 2em;
+}
+.col a:hover{
+    color: gray;
+}
+
+
+/* footer-section */
+
+.footer-section{
+    display: flex;
+    background: #845;
+   padding: 20px;
+   clear: both;
+}
+
+.footer-section small{
+    color: #ffffff;
+    font-size: 20pt;
+
+}
+
+.foot{
+    margin-left: 52%;
+    color: #fff;
+    
+}
+.foot a{
+    text-decoration: none;
+    color: white;
+}
+.foot a:hover{
+    color:  rgb(28, 225, 199);
+    text-decoration: underline;
+}
+
+.schedule-foot{
+    padding: 5.4em 1em;
+}
